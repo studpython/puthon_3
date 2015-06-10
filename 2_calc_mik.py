@@ -7,9 +7,10 @@ def mult(a,b):
 def split(a,b):
     print(a/b)
 
+print('input calculator operation')
+print('example: 11 + 22')
 done = True
 while done:
-    #print('input a +-*/ c')
     line = input()
     mas = line.split(' ')
     a = int(mas[0])
