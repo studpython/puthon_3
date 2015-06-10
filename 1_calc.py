@@ -1,5 +1,5 @@
-s = '1'
-while s == '1':
+done = True
+while done:
     print ('input 1 number')
     a = int (input())
     print ('input +-*/**// or q for exit')

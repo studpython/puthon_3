@@ -1,7 +1,7 @@
 import random
 
-s = int(1)
-while s < 10:
+done = True
+while done:
     a = random.randint(0,1000)
     b = random.choice('+-*/')
     c = random.randint(0,100)
@@ -16,4 +16,3 @@ while s < 10:
             print('null')
             break
         print(a, '/', c, '=', a/c)
-    #s=s+1
