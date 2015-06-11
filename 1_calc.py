@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 done = True
 while done:
     print ('input 1 number')

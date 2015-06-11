@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 def add(a,b):
     print(a+b)
 def min(a,b):
@@ -12,7 +14,7 @@ print('example: 11 + 22')
 done = True
 while done:
     line = input()
-    mas = line.split(' ')
+    mas = line.split()
     a = int(mas[0])
     b = mas[1]
     c = int(mas[2])
